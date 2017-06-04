@@ -1,5 +1,3 @@
-
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -38,6 +36,14 @@ public class VirtualPetShelter {
 		// play with a specific pet
 			pet.playWith(); 
 	}
+	
+	public void messyCage() {
+		// clean all the pets' cages
+		for (VirtualPet currentPet : myPets.values()) {
+			currentPet.cleanCage();
+		}
+	}
+	
 
 	public void intakePet(VirtualPet pet) {
 		// adds pet to the map
