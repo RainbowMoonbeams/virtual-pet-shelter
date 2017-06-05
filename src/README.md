@@ -1,4 +1,4 @@
-#Virtual Pet Shelter
+# Virtual Pet Shelter
 
 Plum Street Pet Shelter provides food, housing, and socializing for mini hippos.
 
